@@ -1,0 +1,77 @@
+/* body: 폰트, 여백, 패딩, 배경 색을 설정합니다. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* header: 헤더의 배경 색, 텍스트 색, 패딩을 설정합니다 */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+/* header .logo a: 로고 링크의 스타일을 설정합니다 */
+header .logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+/* nav ul: 네비게이션 목록을 플렉스로 설정하고 가운데 정렬합니다 */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+/* nav ul li: 목록 항목의 여백을 설정합니다. */
+nav ul li {
+    margin: 0 15px;
+}
+/* nav ul li a: 네비게이션 링크의 스타일을 설정합니다 */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* hero: 히어로 섹션의 배경 색, 텍스트 색, 패딩을 설정합니다 */
+.hero {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+/* content: 콘텐츠 섹션을 플렉스로 설정합니다. */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+/* card: 카드 요소의 배경, 테두리, 패딩, 텍스트 정렬을 설정합니다 */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+/* card img: 카드 안의 이미지 스타일을 설정합니다 */
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+/* footer: 푸터의 배경 색, 텍스트 색, 패딩, 위치를 설정합니다. */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
